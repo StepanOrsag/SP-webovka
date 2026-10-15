@@ -1,0 +1,41 @@
+@import 'variables';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 90px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+body {
+    font-size: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.5;
+    display: flex;
+    color: white;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+h1 {
+    color: white;
+    font-size: 1.5rem;
+    span { color: $highlight; }
+}
+h2 { font-size: 3rem; }
+h3 { font-size: 1.3rem; }
+h4 { font-size: 4rem; }
+
+@import 'header';
+@import 'home';
+@import 'references';
+@import 'detail';
